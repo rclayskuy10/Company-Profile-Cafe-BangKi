@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="description" content="Menu lengkap Café Aroma - Kopi, Minuman Non-Coffee, Pastry, dan Makanan">
+    <meta name="keywords" content="menu cafe, menu coffee, daftar menu, harga kopi">
+    <meta name="theme-color" content="#8B7355">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Café Aroma">
+    <title>Menu - Café Aroma</title>
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ============================================
+         NAVBAR
+         ============================================ -->
+    <nav class="navbar scrolled">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Café Aroma</a>
+            
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="menu.html" class="nav-link">Menu</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ============================================
+         MENU HERO SECTION
+         ============================================ -->
+    <section class="menu-hero">
+        <div class="container">
+            <h1>Our Menu</h1>
+            <p style="font-size: 1.2rem; color: #FFFFFF;">Discover our carefully crafted selection</p>
+        </div>
+    </section>
+
+    <!-- ============================================
+         MENU FILTERS
+         ============================================ -->
+    <section class="section" style="padding-top: 60px;">
+        <div class="container">
+            <div class="menu-filters fade-in">
+                <button class="filter-btn active" data-filter="all">All Menu</button>
+                <button class="filter-btn" data-filter="coffee">Coffee</button>
+                <button class="filter-btn" data-filter="non-coffee">Non-Coffee</button>
+                <button class="filter-btn" data-filter="pastry">Pastry</button>
+                <button class="filter-btn" data-filter="food">Food</button>
+            </div>
+
+            <!-- ============================================
+                 COFFEE SECTION
+                 ============================================ -->
+            <div class="menu-section fade-in">
+                <h2 class="menu-category-title">☕ Coffee Selection</h2>
+                <div class="menu-items">
+                    <div class="menu-item" data-category="coffee">
+                        <img src="https://images.unsplash.com/photo-1579992357154-faf4bde95b3d?w=600&h=400&fit=crop" alt="Espresso" class="menu-item-img">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Espresso</h3>
+                                <span class="menu-item-price">Rp 25.000</span>
+                            </div>
+                            <p class="menu-item-desc">Single shot espresso yang kuat dan beraroma</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="coffee">
+                        <img src="https://www.foodandwine.com/thmb/9JyfZPcxlV9ubEeuSznhO-M4q0w=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Partners-Americano-FT-BLOG0523-b8e18cc340574cc9bed536cceeec7082.jpg" alt="Americano" class="menu-item-img">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Americano</h3>
+                                <span class="menu-item-price">Rp 28.000</span>
+                            </div>
+                            <p class="menu-item-desc">Espresso dengan air panas, smooth dan ringan</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="coffee">
+                        <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=600&h=400&fit=crop" alt="Cappuccino" class="menu-item-img">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Cappuccino</h3>
+                                <span class="menu-item-price">Rp 32.000</span>
+                            </div>
+                            <p class="menu-item-desc">Espresso dengan steamed milk dan foam yang lembut</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="coffee">
+                        <img src="https://images.unsplash.com/photo-1561882468-9110e03e0f78?w=600&h=400&fit=crop" alt="Caffe Latte" class="menu-item-img">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Caffè Latte</h3>
+                                <span class="menu-item-price">Rp 35.000</span>
+                            </div>
+                            <p class="menu-item-desc">Perpaduan sempurna espresso dan steamed milk</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="coffee">
+                        <img src="https://images.unsplash.com/photo-1534778101976-62847782c213?w=600&h=400&fit=crop" alt="Caramel Latte" class="menu-item-img">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Caramel Latte</h3>
+                                <span class="menu-item-price">Rp 38.000</span>
+                            </div>
+                            <p class="menu-item-desc">Latte dengan sentuhan caramel yang manis</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="coffee">
+                        <img src="https://cdn.shopify.com/s/files/1/1221/3516/articles/latte-art-on-mocha.jpg?v=1660069726" alt="Mocha" class="menu-item-img">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Mocha</h3>
+                                <span class="menu-item-price">Rp 38.000</span>
+                            </div>
+                            <p class="menu-item-desc">Kombinasi espresso, cokelat, dan steamed milk</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="coffee">
+                        <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600&h=400&fit=crop" alt="Cold Brew" class="menu-item-img">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Cold Brew</h3>
+                                <span class="menu-item-price">Rp 35.000</span>
+                            </div>
+                            <p class="menu-item-desc">Kopi dingin dengan rasa yang smooth dan less acidic</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="coffee">
+                        <img src="https://www.forkinthekitchen.com/wp-content/uploads/2022/08/220629.iced_.latte_.vanilla-9019.jpg" alt="Iced Latte" class="menu-item-img">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Iced Latte</h3>
+                                <span class="menu-item-price">Rp 35.000</span>
+                            </div>
+                            <p class="menu-item-desc">Latte dingin yang menyegarkan</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="coffee">
+                        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&h=400&fit=crop" alt="Vietnamese Coffee" class="menu-item-img">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Vietnamese Coffee</h3>
+                                <span class="menu-item-price">Rp 32.000</span>
+                            </div>
+                            <p class="menu-item-desc">Kopi Vietnam dengan condensed milk yang manis</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ============================================
+                 NON-COFFEE SECTION
+                 ============================================ -->
+            <div class="menu-section fade-in">
+                <h2 class="menu-category-title">🥤 Non-Coffee Drinks</h2>
+                <div class="menu-items">
+                    <div class="menu-item" data-category="non-coffee">
+                        <img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=600&h=400&fit=crop" alt="Matcha Latte" class="menu-item-img">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Matcha Latte</h3>
+                                <span class="menu-item-price">Rp 35.000</span>
+                            </div>
+                            <p class="menu-item-desc">Green tea premium dengan steamed milk</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="non-coffee">
+                        <img src="https://images.unsplash.com/photo-1517578239113-b03992dcdd25?w=600&h=400&fit=crop" alt="Hot Chocolate" class="menu-item-img">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Hot Chocolate</h3>
+                                <span class="menu-item-price">Rp 30.000</span>
+                            </div>
+                            <p class="menu-item-desc">Cokelat panas yang creamy dan lezat</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="non-coffee">
+                        <img src="https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=600&h=400&fit=crop" alt="English Breakfast Tea" class="menu-item-img">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">English Breakfast Tea</h3>
+                                <span class="menu-item-price">Rp 25.000</span>
+                            </div>
+                            <p class="menu-item-desc">Teh klasik yang menyegarkan</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="non-coffee">
+                        <img src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=600&h=400&fit=crop" alt="Lemon Tea" class="menu-item-img">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Lemon Tea</h3>
+                                <span class="menu-item-price">Rp 25.000</span>
+                            </div>
+                            <p class="menu-item-desc">Teh dengan lemon segar yang menyegarkan</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="non-coffee">
+                        <img src="https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=600&h=400&fit=crop" alt="Berry Smoothie" class="menu-item-img">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Berry Smoothie</h3>
+                                <span class="menu-item-price">Rp 38.000</span>
+                            </div>
+                            <p class="menu-item-desc">Smoothie segar dengan campuran berry</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="non-coffee">
+                        <img src="https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=600&h=400&fit=crop" alt="Mango Smoothie" class="menu-item-img">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Mango Smoothie</h3>
+                                <span class="menu-item-price">Rp 38.000</span>
+                            </div>
+                            <p class="menu-item-desc">Smoothie mangga yang creamy dan manis</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ============================================
+                 PASTRY SECTION
+                 ============================================ -->
+            <div class="menu-section fade-in">
+                <h2 class="menu-category-title">🥐 Pastries & Desserts</h2>
+                <div class="menu-items">
+                    <div class="menu-item" data-category="pastry">
+                        <img src="https://images.unsplash.com/photo-1530610476181-d83430b64dcd?w=600&h=400&fit=crop" alt="Butter Croissant" class="menu-item-img">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Butter Croissant</h3>
+                                <span class="menu-item-price">Rp 25.000</span>
+                            </div>
+                            <p class="menu-item-desc">Croissant dengan butter yang renyah dan lembut</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="pastry">
+                        <img src="https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=600&h=400&fit=crop" alt="Chocolate Croissant" class="menu-item-img">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Chocolate Croissant</h3>
+                                <span class="menu-item-price">Rp 28.000</span>
+                            </div>
+                            <p class="menu-item-desc">Croissant dengan cokelat premium di dalamnya</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="pastry">
+                        <img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&h=400&fit=crop" alt="Blueberry Muffin" class="menu-item-img">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Blueberry Muffin</h3>
+                                <span class="menu-item-price">Rp 30.000</span>
+                            </div>
+                            <p class="menu-item-desc">Muffin lembut dengan blueberry segar</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="pastry">
+                        <img src="https://www.thespruceeats.com/thmb/HM3X8w38eMVo0Lejx4GLvGHZ4dM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/gluten-free-new-york-cheesecake-1450985-hero-01-dc54f9daf38044238b495c7cefc191fa.jpg" alt="New York Cheesecake" class="menu-item-img">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">New York Cheesecake</h3>
+                                <span class="menu-item-price">Rp 42.000</span>
+                            </div>
+                            <p class="menu-item-desc">Cheesecake klasik yang creamy dan lezat</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="pastry">
+                        <img src="https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?w=600&h=400&fit=crop" alt="Tiramisu" class="menu-item-img">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Tiramisu</h3>
+                                <span class="menu-item-price">Rp 45.000</span>
+                            </div>
+                            <p class="menu-item-desc">Dessert Italia dengan kopi dan mascarpone</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="pastry">
+                        <img src="https://images.unsplash.com/photo-1607920591413-4ec007e70023?w=600&h=400&fit=crop" alt="Chocolate Brownie" class="menu-item-img">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Chocolate Brownie</h3>
+                                <span class="menu-item-price">Rp 35.000</span>
+                            </div>
+                            <p class="menu-item-desc">Brownie cokelat yang fudgy dan kaya rasa</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ============================================
+                 FOOD SECTION
+                 ============================================ -->
+            <div class="menu-section fade-in">
+                <h2 class="menu-category-title">🍽️ Food</h2>
+                <div class="menu-items">
+                    <div class="menu-item" data-category="food">
+                        <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=600&h=400&fit=crop" alt="Club Sandwich" class="menu-item-img">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Club Sandwich</h3>
+                                <span class="menu-item-price">Rp 48.000</span>
+                            </div>
+                            <p class="menu-item-desc">Sandwich dengan ayam, bacon, sayur, dan saus</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="food">
+                        <img src="https://images.unsplash.com/photo-1612874742237-6526221588e3?w=600&h=400&fit=crop" alt="Spaghetti Carbonara" class="menu-item-img">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Spaghetti Carbonara</h3>
+                                <span class="menu-item-price">Rp 55.000</span>
+                            </div>
+                            <p class="menu-item-desc">Pasta creamy dengan bacon dan parmesan</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="food">
+                        <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=600&h=400&fit=crop" alt="Aglio e Olio" class="menu-item-img">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Aglio e Olio</h3>
+                                <span class="menu-item-price">Rp 50.000</span>
+                            </div>
+                            <p class="menu-item-desc">Spaghetti dengan olive oil, garlic, dan chili</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="food">
+                        <img src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=600&h=400&fit=crop" alt="French Fries" class="menu-item-img">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">French Fries</h3>
+                                <span class="menu-item-price">Rp 28.000</span>
+                            </div>
+                            <p class="menu-item-desc">Kentang goreng crispy dengan saus pilihan</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="food">
+                        <img src="https://images.unsplash.com/photo-1608039755401-742074f0548d?w=600&h=400&fit=crop" alt="Chicken Wings" class="menu-item-img">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Chicken Wings</h3>
+                                <span class="menu-item-price">Rp 45.000</span>
+                            </div>
+                            <p class="menu-item-desc">Sayap ayam dengan pilihan BBQ atau spicy</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="food">
+                        <img src="https://images.unsplash.com/photo-1546793665-c74683f339c1?w=600&h=400&fit=crop" alt="Caesar Salad" class="menu-item-img">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Caesar Salad</h3>
+                                <span class="menu-item-price">Rp 42.000</span>
+                            </div>
+                            <p class="menu-item-desc">Salad segar dengan dressing caesar dan crouton</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         FOOTER
+         ============================================ -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Café Aroma</h3>
+                <p>
+                    Your daily dose of coffee and comfort. Kami menyajikan kopi premium dengan suasana yang hangat dan nyaman.
+                </p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="about.html">About Us</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Jam Operasional</h3>
+                <p>Senin - Jumat: 08:00 - 22:00</p>
+                <p>Sabtu - Minggu: 09:00 - 23:00</p>
+                <p>Hari Libur: 09:00 - 22:00</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Hubungi Kami</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Jl. Sudirman No. 123, Jakarta</p>
+                <p><i class="fas fa-phone"></i> +62 812-3456-7890</p>
+                <p><i class="fas fa-envelope"></i> info@cafearoma.com</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> Café Aroma. All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>

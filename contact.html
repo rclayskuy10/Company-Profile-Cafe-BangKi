@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="description" content="Hubungi Café Aroma - Alamat, Jam Operasional, dan Form Kontak">
+    <meta name="keywords" content="kontak cafe, alamat cafe, jam buka cafe, reservasi">
+    <meta name="theme-color" content="#8B7355">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Café Aroma">
+    <title>Contact Us - Café Aroma</title>
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ============================================
+         NAVBAR
+         ============================================ -->
+    <nav class="navbar scrolled">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Café Aroma</a>
+            
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="menu.html" class="nav-link">Menu</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ============================================
+         CONTACT HERO SECTION
+         ============================================ -->
+    <section class="contact-hero">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p style="font-size: 1.2rem; color: #FFFFFF;">We'd love to hear from you</p>
+        </div>
+    </section>
+
+    <!-- ============================================
+         CONTACT SECTION
+         ============================================ -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title fade-in">
+                <p class="section-subtitle">Get In Touch</p>
+                <h2>Hubungi Kami</h2>
+            </div>
+
+            <div class="contact-container">
+                <!-- Contact Form -->
+                <div class="contact-form fade-in">
+                    <h3 style="margin-bottom: 25px;">Kirim Pesan</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" id="name" name="name" required placeholder="Masukkan nama Anda">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required placeholder="nama@email.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Nomor Telepon (Opsional)</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+62 812-3456-7890">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subjek</label>
+                            <input type="text" id="subject" name="subject" required placeholder="Subjek pesan Anda">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Pesan</label>
+                            <textarea id="message" name="message" required placeholder="Tulis pesan Anda di sini..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">
+                            <i class="fas fa-paper-plane"></i> Kirim Pesan
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info fade-in">
+                    <div class="info-card">
+                        <h3><i class="fas fa-map-marker-alt info-icon"></i> Alamat Kami</h3>
+                        <p>
+                            Jl. Sudirman No. 123<br>
+                            Jakarta Pusat, DKI Jakarta 10220<br>
+                            Indonesia
+                        </p>
+                        <p style="margin-top: 15px; color: #6B6B6B;">
+                            Lokasi strategis di pusat kota, mudah diakses dengan kendaraan umum maupun pribadi.
+                        </p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3><i class="fas fa-clock info-icon"></i> Jam Operasional</h3>
+                        <p><strong>Senin - Jumat</strong></p>
+                        <p>08:00 - 22:00 WIB</p>
+                        <p style="margin-top: 10px;"><strong>Sabtu - Minggu</strong></p>
+                        <p>09:00 - 23:00 WIB</p>
+                        <p style="margin-top: 10px;"><strong>Hari Libur Nasional</strong></p>
+                        <p>09:00 - 22:00 WIB</p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3><i class="fas fa-phone info-icon"></i> Kontak</h3>
+                        <p><strong>Telepon:</strong></p>
+                        <p>+62 21 5555 1234</p>
+                        <p style="margin-top: 10px;"><strong>WhatsApp:</strong></p>
+                        <p>+62 812 3456 7890</p>
+                        <p style="margin-top: 10px;"><strong>Email:</strong></p>
+                        <p>info@cafearoma.com</p>
+                        
+                        <a href="https://wa.me/6281234567890?text=Halo%20Café%20Aroma,%20saya%20ingin%20bertanya%20tentang..." 
+                           class="whatsapp-btn" 
+                           target="_blank">
+                            <i class="fab fa-whatsapp"></i> Order via WhatsApp
+                        </a>
+                    </div>
+
+                    <div class="info-card">
+                        <h3><i class="fas fa-share-alt info-icon"></i> Social Media</h3>
+                        <p style="margin-bottom: 20px;">Ikuti kami untuk update terbaru, promo, dan event spesial</p>
+                        <div class="social-links">
+                            <a href="#" class="social-link" title="Facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-link" title="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-link" title="Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link" title="WhatsApp">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                            <a href="#" class="social-link" title="TikTok">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         MAP SECTION
+         ============================================ -->
+    <section class="section" style="padding-top: 0;">
+        <div class="container">
+            <div class="section-title fade-in">
+                <p class="section-subtitle">Find Us</p>
+                <h2>Lokasi Kami</h2>
+            </div>
+
+            <div class="map-container fade-in">
+                <!-- Google Maps Embed - Replace with your actual location -->
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521260322283!2d106.8195613!3d-6.1944491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5d2e764b12d%3A0x3d2ad6e1e0e9bcc8!2sJl.%20Jenderal%20Sudirman%2C%20Jakarta!5e0!3m2!1sen!2sid!4v1234567890"
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ============================================
+         FAQ SECTION
+         ============================================ -->
+    <section class="section" style="background: white;">
+        <div class="container">
+            <div class="section-title fade-in">
+                <p class="section-subtitle">Questions?</p>
+                <h2>Frequently Asked Questions</h2>
+            </div>
+
+            <div class="values-grid" style="grid-template-columns: 1fr;">
+                <div class="value-card fade-in" style="text-align: left;">
+                    <h3 style="margin-bottom: 15px;">📍 Apakah ada biaya minimum untuk dine-in?</h3>
+                    <p>
+                        Tidak ada biaya minimum untuk dine-in. Anda bebas memesan sesuka hati. 
+                        Namun, kami menghargai jika setiap tamu memesan minimal satu item.
+                    </p>
+                </div>
+
+                <div class="value-card fade-in" style="text-align: left;">
+                    <h3 style="margin-bottom: 15px;">🔌 Apakah ada WiFi dan colokan listrik?</h3>
+                    <p>
+                        Ya! Kami menyediakan WiFi gratis dengan kecepatan tinggi dan banyak colokan 
+                        listrik di seluruh area café untuk kenyamanan bekerja Anda.
+                    </p>
+                </div>
+
+                <div class="value-card fade-in" style="text-align: left;">
+                    <h3 style="margin-bottom: 15px;">🎂 Apakah menerima reservasi untuk acara?</h3>
+                    <p>
+                        Tentu! Kami menerima reservasi untuk ulang tahun, gathering, atau meeting. 
+                        Hubungi kami melalui WhatsApp atau telepon untuk informasi lebih lanjut.
+                    </p>
+                </div>
+
+                <div class="value-card fade-in" style="text-align: left;">
+                    <h3 style="margin-bottom: 15px;">🚗 Apakah tersedia layanan delivery?</h3>
+                    <p>
+                        Ya! Kami melayani delivery melalui aplikasi online (GoFood, GrabFood) dan 
+                        juga bisa order langsung via WhatsApp untuk area sekitar lokasi kami.
+                    </p>
+                </div>
+
+                <div class="value-card fade-in" style="text-align: left;">
+                    <h3 style="margin-bottom: 15px;">💳 Metode pembayaran apa saja yang diterima?</h3>
+                    <p>
+                        Kami menerima cash, debit card, credit card, dan e-wallet 
+                        (GoPay, OVO, DANA, ShopeePay, LinkAja).
+                    </p>
+                </div>
+
+                <div class="value-card fade-in" style="text-align: left;">
+                    <h3 style="margin-bottom: 15px;">🐕 Apakah pet-friendly?</h3>
+                    <p>
+                        Ya! Kami menyediakan area outdoor yang pet-friendly. Hewan peliharaan 
+                        Anda dipersilakan di area outdoor kami.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         CALL TO ACTION
+         ============================================ -->
+    <section class="section" style="background: linear-gradient(135deg, #8B7355, #D4A574); color: white; text-align: center;">
+        <div class="container fade-in">
+            <h2 style="color: white; margin-bottom: 20px;">Kunjungi Kami Hari Ini!</h2>
+            <p style="font-size: 1.1rem; color: #FFFFFF; margin-bottom: 30px; max-width: 600px; margin-left: auto; margin-right: auto;">
+                Nikmati secangkir kopi terbaik dan suasana yang nyaman. 
+                Kami tunggu kedatangan Anda di Café Aroma!
+            </p>
+            <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+                <a href="menu.html" class="btn btn-outline" style="border-color: white; color: white;">
+                    Lihat Menu
+                </a>
+                <a href="https://wa.me/6281234567890?text=Halo%20Café%20Aroma,%20saya%20ingin%20melakukan%20reservasi" 
+                   class="btn btn-primary" 
+                   target="_blank"
+                   style="background: white; color: #8B7355;">
+                    <i class="fab fa-whatsapp"></i> Reservasi Sekarang
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         FOOTER
+         ============================================ -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Café Aroma</h3>
+                <p>
+                    Your daily dose of coffee and comfort. Kami menyajikan kopi premium dengan suasana yang hangat dan nyaman.
+                </p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="about.html">About Us</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Jam Operasional</h3>
+                <p>Senin - Jumat: 08:00 - 22:00</p>
+                <p>Sabtu - Minggu: 09:00 - 23:00</p>
+                <p>Hari Libur: 09:00 - 22:00</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Hubungi Kami</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Jl. Sudirman No. 123, Jakarta</p>
+                <p><i class="fas fa-phone"></i> +62 812-3456-7890</p>
+                <p><i class="fas fa-envelope"></i> info@cafearoma.com</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> Café Aroma. All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>

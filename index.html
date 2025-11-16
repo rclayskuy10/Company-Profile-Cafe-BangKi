@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="description" content="Café Aroma - Your Daily Dose of Coffee & Comfort. Nikmati kopi premium dan suasana cozy di café kami.">
+    <meta name="keywords" content="cafe, coffee, kopi, café aroma, coffee shop, restoran">
+    <meta name="theme-color" content="#8B7355">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Café Aroma">
+    <title>Café Aroma - Your Daily Dose of Coffee & Comfort</title>
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ============================================
+         NAVBAR
+         ============================================ -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Café Aroma</a>
+            
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="menu.html" class="nav-link">Menu</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ============================================
+         HERO SECTION
+         ============================================ -->
+    <section class="hero">
+        <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=1920&q=80" alt="Café Interior" class="hero-bg">
+        
+        <div class="hero-content">
+            <p class="hero-subtitle">Welcome to Café Aroma</p>
+            <h1 class="hero-title">Your Daily Dose of Coffee & Comfort</h1>
+            <p class="hero-description">
+                Nikmati secangkir kopi premium dalam suasana yang hangat dan nyaman. 
+                Tempat sempurna untuk bekerja, bersantai, atau bertemu dengan teman.
+            </p>
+            <div class="hero-buttons">
+                <a href="menu.html" class="btn btn-primary">View Menu</a>
+                <a href="contact.html" class="btn btn-outline" style="background: rgba(255, 255, 255, 0.9); color: #3E2723; border-color: #FFFFFF;">Visit Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         FEATURED MENU SECTION
+         ============================================ -->
+    <section class="featured-menu section">
+        <div class="container">
+            <div class="section-title fade-in">
+                <p class="section-subtitle">Our Specialties</p>
+                <h2>Menu Unggulan</h2>
+            </div>
+
+            <div class="menu-grid">
+                <div class="menu-card fade-in">
+                    <img src="https://images.unsplash.com/photo-1579992357154-faf4bde95b3d?w=600&h=400&fit=crop" alt="Signature Espresso" class="menu-card-img">
+                    <div class="menu-card-content">
+                        <h3 class="menu-card-title">Signature Espresso</h3>
+                        <p class="menu-card-price" style="color: #C9A961;">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <p class="menu-card-desc">
+                            Espresso premium dengan biji kopi pilihan, diolah oleh barista profesional kami.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="menu-card fade-in">
+                    <img src="https://images.unsplash.com/photo-1534778101976-62847782c213?w=600&h=400&fit=crop" alt="Caramel Latte" class="menu-card-img">
+                    <div class="menu-card-content">
+                        <h3 class="menu-card-title">Caramel Latte</h3>
+                        <p class="menu-card-price" style="color: #C9A961;">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <p class="menu-card-desc">
+                            Perpaduan sempurna antara espresso, susu, dan caramel yang manis dan creamy.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="menu-card fade-in">
+                    <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=600&h=400&fit=crop" alt="Classic Cappuccino" class="menu-card-img">
+                    <div class="menu-card-content">
+                        <h3 class="menu-card-title">Classic Cappuccino</h3>
+                        <p class="menu-card-price" style="color: #C9A961;">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <p class="menu-card-desc">
+                            Cappuccino klasik dengan foam susu yang lembut dan tekstur yang sempurna.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="menu-card fade-in">
+                    <img src="https://images.unsplash.com/photo-1530610476181-d83430b64dcd?w=600&h=400&fit=crop" alt="Butter Croissant" class="menu-card-img">
+                    <div class="menu-card-content">
+                        <h3 class="menu-card-title">Butter Croissant</h3>
+                        <p class="menu-card-price" style="color: #C9A961;">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <p class="menu-card-desc">
+                            Croissant premium dengan lapisan butter yang renyah dan lembut di dalam.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="menu-card fade-in">
+                    <img src="https://ibevconcepts.com/cdn/shop/articles/iStock-1287447428-modified-24463945-92c6-44dc-b0ad-589005650d99.jpg?v=1746754214" alt="Signature Mocha" class="menu-card-img">
+                    <div class="menu-card-content">
+                        <h3 class="menu-card-title">Signature Mocha</h3>
+                        <p class="menu-card-price" style="color: #C9A961;">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <p class="menu-card-desc">
+                            Kombinasi sempurna antara espresso, cokelat premium, dan steamed milk yang creamy.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="menu-card fade-in">
+                    <img src="https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?w=600&h=400&fit=crop" alt="Classic Tiramisu" class="menu-card-img">
+                    <div class="menu-card-content">
+                        <h3 class="menu-card-title">Classic Tiramisu</h3>
+                        <p class="menu-card-price" style="color: #C9A961;">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <p class="menu-card-desc">
+                            Dessert Italia autentik dengan kopi espresso dan mascarpone cheese yang lembut.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 50px;">
+                <a href="menu.html" class="btn btn-primary">Lihat Menu Lengkap</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ============================================
+         FOOTER
+         ============================================ -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Café Aroma</h3>
+                <p>
+                    Your daily dose of coffee and comfort. Kami menyajikan kopi premium dengan suasana yang hangat dan nyaman.
+                </p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="about.html">About Us</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Jam Operasional</h3>
+                <p>Senin - Jumat: 08:00 - 22:00</p>
+                <p>Sabtu - Minggu: 09:00 - 23:00</p>
+                <p>Hari Libur: 09:00 - 22:00</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Hubungi Kami</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Jl. Sudirman No. 123, Jakarta</p>
+                <p><i class="fas fa-phone"></i> +62 812-3456-7890</p>
+                <p><i class="fas fa-envelope"></i> info@cafearoma.com</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> Café Aroma. All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
