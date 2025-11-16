@@ -7,7 +7,7 @@ Website café modern, elegan, dan aesthetic dengan desain warm & cozy menggunaka
 ## 📁 Struktur Folder
 
 ```
-Cafe Aroma/
+Cafe BangKi/
 │
 ├── index.html          # Halaman Home
 ├── menu.html           # Halaman Menu
@@ -326,7 +326,7 @@ Anda bebas menggunakannya untuk project apapun.
 ## 📞 Support
 
 Jika ada pertanyaan atau butuh bantuan:
-- 📧 Email: info@cafearoma.com
+- 📧 Email: info@cafebangki.com
 - 💬 WhatsApp: +62 812-3456-7890
 
 ---

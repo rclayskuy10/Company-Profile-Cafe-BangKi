@@ -244,7 +244,7 @@ Check: @media queries untuk font-size
 ## 📚 File Structure
 
 ```
-Cafe Aroma/
+Cafe BangKi/
 ├── index.html                    ✅ Updated
 ├── menu.html                     ✅ Updated
 ├── gallery.html                  ✅ Updated
