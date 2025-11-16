@@ -1,5 +1,5 @@
 // ============================================
-// CAFÉ AROMA - JAVASCRIPT
+// CAFÉ BANGKI - JAVASCRIPT
 // Modern Interactive Features
 // ============================================
 
@@ -429,7 +429,7 @@ if (heroSubtitle) {
     setTimeout(typeWriter, 500);
 }
 
-console.log('🎨 Café Aroma Website Loaded Successfully!');
+console.log('🎨 Café BangKi Website Loaded Successfully!');
 
 // ============================================
 // MOBILE VIEWPORT HEIGHT FIX
