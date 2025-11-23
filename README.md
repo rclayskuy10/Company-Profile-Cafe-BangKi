@@ -396,18 +396,6 @@ Anda bebas menggunakannya untuk project apapun.
 
 ---
 
-## 💖 Support the Developer
-
-Jika Anda menyukai project ini dan ingin mendukung pengembangan lebih lanjut:
-
-[![Saweria](https://img.shields.io/badge/Saweria-Support%20Me-orange?style=for-the-badge&logo=ko-fi&logoColor=white)](https://saweria.co/riski2000)
-
-**Donasi melalui Saweria**: [saweria.co/riski2000](https://saweria.co/riski2000)
-
-Setiap dukungan Anda sangat berarti! ☕💖
-
----
-
 ## 📞 Support & Contact
 
 Jika ada pertanyaan atau butuh bantuan:
