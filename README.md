@@ -399,8 +399,6 @@ Anda bebas menggunakannya untuk project apapun.
 ## 📞 Support & Contact
 
 Jika ada pertanyaan atau butuh bantuan:
-- 📧 Email: info@cafebangki.com
-- 💬 WhatsApp: +62 812-3456-7890
 - 🌐 GitHub: [@rclayskuy10](https://github.com/rclayskuy10)
 - 💰 Saweria: [saweria.co/riski2000](https://saweria.co/riski2000)
 
