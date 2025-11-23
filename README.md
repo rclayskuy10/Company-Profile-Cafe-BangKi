@@ -1,6 +1,55 @@
-# 🎨 Café Aroma - Multi-Page Website
+# 🎨 Café BangKi - Multi-Page Website
 
 Website café modern, elegan, dan aesthetic dengan desain warm & cozy menggunakan HTML, CSS, dan JavaScript murni (tanpa framework).
+
+---
+
+## 💖 Support the Developer
+
+[![Saweria](https://img.shields.io/badge/Saweria-Support%20Me-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://saweria.co/riski2000)
+
+**Donasi via Saweria**: [saweria.co/riski2000](https://saweria.co/riski2000)
+
+Jika Anda menyukai template ini dan ingin mendukung pengembangan lebih lanjut, silakan berdonasi melalui Saweria. Setiap dukungan Anda sangat berarti! ☕💖
+
+---
+
+## ⚠️ PENTING - Lisensi & Penggunaan
+
+**PERHATIAN**: Template ini adalah **DONATIONWARE**
+
+### 📋 Ketentuan Penggunaan:
+
+✅ **GRATIS untuk melihat dan belajar** - Anda bebas melihat source code untuk pembelajaran  
+❌ **DILARANG memodifikasi untuk komersial tanpa donasi**  
+❌ **DILARANG menghapus credit developer**  
+❌ **DILARANG mendistribusikan ulang tanpa izin**
+
+### 💰 Untuk Penggunaan Komersial:
+
+Jika Anda ingin:
+- ✏️ Memodifikasi template untuk client/project komersial
+- 🚀 Deploy untuk bisnis tanpa credit/watermark
+- 📦 Menggunakan sebagai basis template berbayar
+- 🔄 Redistribusi dengan modifikasi
+
+**WAJIB melakukan donasi minimal Rp 50.000** melalui:  
+👉 [saweria.co/riski2000](https://saweria.co/riski2000)
+
+Setelah donasi, kirim bukti ke email: **riski.developer@gmail.com** untuk mendapatkan:
+- ✅ Lisensi penggunaan komersial
+- ✅ Hak modifikasi penuh
+- ✅ Support & update gratis
+- ✅ Remove watermark/credit
+
+### 🎓 Penggunaan Gratis (Non-Komersial):
+
+Boleh digunakan untuk:
+- 📚 Project pembelajaran/sekolah/kampus
+- 🧪 Portfolio pribadi (non-profit)
+- 🎯 Prototype/demo (bukan production)
+
+**Syarat**: Wajib menyertakan credit developer dan link Saweria
 
 ---
 
@@ -45,7 +94,7 @@ Cafe BangKi/
 
 ### 1. **HOME** (index.html)
 - ✅ Hero section dengan background image aesthetic
-- ✅ Nama café: "Café Aroma"
+- ✅ Nama café: "Café BangKi"
 - ✅ Tagline: "Your Daily Dose of Coffee & Comfort"
 - ✅ CTA buttons: View Menu & Visit Us
 - ✅ Section menu unggulan (4 items)
@@ -150,15 +199,43 @@ Website **fully responsive** dan dioptimasi untuk semua device!
 - **Optimized Forms**: Full-width inputs, easy typing
 - **Back to Top**: Floating button muncul saat scroll
 
-### Testing:
-📖 Lihat file `TESTING_GUIDE.md` untuk panduan lengkap testing
-📖 Lihat file `RESPONSIVE_FEATURES.md` untuk detail semua fitur
+### Quick Test Responsivitas:
 
-### Quick Test:
+#### Metode 1: Browser DevTools
 1. Buka di Chrome/Firefox
 2. Tekan `F12` → Toggle Device Toolbar (`Ctrl+Shift+M`)
-3. Test berbagai device presets
-4. Atau resize browser window secara manual
+3. Test berbagai device presets (iPhone, iPad, Desktop)
+4. Test orientasi portrait dan landscape
+
+#### Metode 2: Resize Browser
+- Drag browser width dari kecil ke besar
+- Perhatikan layout changes di setiap breakpoint
+
+#### Metode 3: Real Device Testing
+1. Jalankan Live Server di VS Code
+2. Akses dari mobile: `http://[YOUR_IP]:5500`
+3. Test swipe gestures dan touch interactions
+
+### Pre-Launch Checklist:
+
+#### Mobile View (< 768px)
+- [ ] Hamburger menu berfungsi dengan smooth animation
+- [ ] Tidak ada horizontal scroll
+- [ ] Semua text terbaca tanpa zoom (min 14px)
+- [ ] Buttons minimum 44x44px (thumb-friendly)
+- [ ] Forms mudah diisi (full-width inputs)
+- [ ] Swipe gestures bekerja (test di real device)
+
+#### Tablet View (768px - 968px)
+- [ ] Grid 2 kolom untuk cards
+- [ ] Spacing proporsional
+- [ ] Navigation masih hamburger menu
+
+#### Desktop View (> 968px)
+- [ ] Full horizontal menu terlihat (hamburger hidden)
+- [ ] Grid 3-4 kolom untuk cards
+- [ ] Hover effects berfungsi
+- [ ] Content centered dengan max-width 1200px
 
 ---
 
@@ -222,7 +299,7 @@ Edit di bagian `<head>` setiap HTML file:
 ```
 
 ### Mengubah Konten
-- **Nama Café**: Cari "Café Aroma" dan replace all
+- **Nama Café**: Cari "Café BangKi" dan replace all
 - **Tagline**: Edit di `index.html` bagian hero
 - **Menu Items**: Edit di `menu.html`
 - **Alamat & Kontak**: Edit di semua file bagian footer dan `contact.html`
@@ -301,6 +378,40 @@ Website kompatibel dengan:
 **Solusi**:
 - Clear browser cache
 - Pastikan meta viewport tag ada di `<head>`
+- Check: `<meta name="viewport" content="width=device-width, initial-scale=1.0">`
+
+### Masalah: Horizontal scroll muncul di mobile
+**Solusi**:
+- Check semua elements dengan width > 100vw
+- Tambahkan di CSS: `body { overflow-x: hidden; }`
+
+### Masalah: Menu tidak muncul di mobile
+**Solusi**:
+- Pastikan `script.js` sudah loaded
+- Check console untuk JavaScript errors
+- Verify hamburger menu CSS di breakpoint < 968px
+
+### Masalah: Touch target terlalu kecil
+**Solusi**:
+- Pastikan semua interactive elements minimum 44x44px
+- Check CSS untuk button padding dan min-height
+
+---
+
+## 🎯 Performance Tips
+
+### Optimasi untuk Production:
+1. **Minify CSS & JS** - Gunakan tool seperti cssnano atau terser
+2. **Optimize Images** - Convert ke WebP, compress dengan TinyPNG
+3. **Enable Caching** - Set proper cache headers di server
+4. **Use CDN** - Untuk fonts dan libraries
+5. **Lazy Loading** - Sudah implemented untuk images
+
+### Expected Lighthouse Scores:
+- ⚡ **Performance**: 90+
+- ♿ **Accessibility**: 90+
+- ✅ **Best Practices**: 90+
+- 🔍 **SEO**: 90+
 
 ---
 
@@ -320,17 +431,42 @@ Anda bebas menggunakannya untuk project apapun.
 - **Images**: Unsplash (Free Stock Photos)
 - **Icons**: Font Awesome
 - **Fonts**: Google Fonts
+- **Developer**: [@rclayskuy10](https://github.com/rclayskuy10)
 
 ---
 
-## 📞 Support
+## 💖 Support the Developer
+
+Jika Anda menyukai project ini dan ingin mendukung pengembangan lebih lanjut:
+
+[![Saweria](https://img.shields.io/badge/Saweria-Support%20Me-orange?style=for-the-badge&logo=ko-fi&logoColor=white)](https://saweria.co/riski2000)
+
+**Donasi melalui Saweria**: [saweria.co/riski2000](https://saweria.co/riski2000)
+
+Setiap dukungan Anda sangat berarti! ☕💖
+
+---
+
+## 📞 Support & Contact
 
 Jika ada pertanyaan atau butuh bantuan:
 - 📧 Email: info@cafebangki.com
 - 💬 WhatsApp: +62 812-3456-7890
+- 🌐 GitHub: [@rclayskuy10](https://github.com/rclayskuy10)
+- 💰 Saweria: [saweria.co/riski2000](https://saweria.co/riski2000)
+
+---
+
+## 📄 License
+
+MIT License - Bebas digunakan untuk project personal maupun komersial.
 
 ---
 
 **Happy Brewing! ☕**
 
-*Café Aroma - Your Daily Dose of Coffee & Comfort*
+*Café BangKi - Your Daily Dose of Coffee & Comfort*
+
+---
+
+Made with by [Riski](https://saweria.co/riski2000) | [Support via Saweria](https://saweria.co/riski2000)
