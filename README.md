@@ -14,45 +14,6 @@ Jika Anda menyukai template ini dan ingin mendukung pengembangan lebih lanjut, s
 
 ---
 
-## ⚠️ PENTING - Lisensi & Penggunaan
-
-**PERHATIAN**: Template ini adalah **DONATIONWARE**
-
-### 📋 Ketentuan Penggunaan:
-
-✅ **GRATIS untuk melihat dan belajar** - Anda bebas melihat source code untuk pembelajaran  
-❌ **DILARANG memodifikasi untuk komersial tanpa donasi**  
-❌ **DILARANG menghapus credit developer**  
-❌ **DILARANG mendistribusikan ulang tanpa izin**
-
-### 💰 Untuk Penggunaan Komersial:
-
-Jika Anda ingin:
-- ✏️ Memodifikasi template untuk client/project komersial
-- 🚀 Deploy untuk bisnis tanpa credit/watermark
-- 📦 Menggunakan sebagai basis template berbayar
-- 🔄 Redistribusi dengan modifikasi
-
-**WAJIB melakukan donasi minimal Rp 50.000** melalui:  
-👉 [saweria.co/riski2000](https://saweria.co/riski2000)
-
-Setelah donasi, kirim bukti ke email: **riski.developer@gmail.com** untuk mendapatkan:
-- ✅ Lisensi penggunaan komersial
-- ✅ Hak modifikasi penuh
-- ✅ Support & update gratis
-- ✅ Remove watermark/credit
-
-### 🎓 Penggunaan Gratis (Non-Komersial):
-
-Boleh digunakan untuk:
-- 📚 Project pembelajaran/sekolah/kampus
-- 🧪 Portfolio pribadi (non-profit)
-- 🎯 Prototype/demo (bukan production)
-
-**Syarat**: Wajib menyertakan credit developer dan link Saweria
-
----
-
 ## 📁 Struktur Folder
 
 ```
