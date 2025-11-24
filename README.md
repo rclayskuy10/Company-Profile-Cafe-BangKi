@@ -400,13 +400,6 @@ Anda bebas menggunakannya untuk project apapun.
 
 Jika ada pertanyaan atau butuh bantuan:
 - 🌐 GitHub: [@rclayskuy10](https://github.com/rclayskuy10)
-- 💰 Saweria: [saweria.co/riski2000](https://saweria.co/riski2000)
-
----
-
-## 📄 License
-
-MIT License - Bebas digunakan untuk project personal maupun komersial.
 
 ---
 
